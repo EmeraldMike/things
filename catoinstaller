@@ -2,7 +2,7 @@ echo "installing cato . . ."
 curl https://raw.githubusercontent.com/EmeraldMike/catoscript/main/cato --output cato
 echo "cato installed"
 echo "installing Pur"
-https://raw.githubusercontent.com/EmeraldMike/catoscript/main/pur
+curl https://raw.githubusercontent.com/EmeraldMike/catoscript/main/pur --output pur
 echo "Pur Installed"
 echo "Enter name for cato project"
 read name
