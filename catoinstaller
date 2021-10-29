@@ -9,3 +9,7 @@ echo "installing Pur"
 curl https://raw.githubusercontent.com/EmeraldMike/catoscript/main/pur --output pur
 echo "Pur Installed"
 ./pur init $name $ver
+echo "making test file . . . "
+echo "kitten > _Main_|  |{" >> ./main.cato
+echo "    console.write > | "Meow" |;" >> ./main.cato
+echo "}" >> ./main.cato
