@@ -1,10 +1,10 @@
 echo "Enter name for cato project"
 read name
 echo "installing cato . . ."
-curl https://raw.githubusercontent.com/EmeraldMike/catoscript/main/cato --output cato
+curl  https://raw.githubusercontent.com/EmeraldMike/catoscript/main/cato --fail --silent --output cato
 echo "cato installed"
 echo "installing Pur"
-curl https://raw.githubusercontent.com/EmeraldMike/catoscript/main/pur --output pur
+curl https://raw.githubusercontent.com/EmeraldMike/catoscript/main/pur --fail --silent --output pur
 echo "Pur Installed"
 ./pur init $name cato
 echo "making test file . . . "
