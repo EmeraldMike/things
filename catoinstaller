@@ -1,14 +1,12 @@
 echo "Enter name for cato project"
 read name
-echo "Type the version of cato"
-read ver
 echo "installing cato . . ."
 curl https://raw.githubusercontent.com/EmeraldMike/catoscript/main/cato --output cato
 echo "cato installed"
 echo "installing Pur"
 curl https://raw.githubusercontent.com/EmeraldMike/catoscript/main/pur --output pur
 echo "Pur Installed"
-./pur init $name $ver
+./pur init $name cato
 echo "making test file . . . "
 echo "kitten > _Main_|  |{" >> ./main.cato
 echo "    console.write > | "Meow" |;" >> ./main.cato
